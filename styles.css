@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -92,8 +94,11 @@ main {
     "projects trending";
 }
 
-.projects {
+.projects-root {
   grid-area: projects;
+}
+
+.projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, auto);
@@ -103,12 +108,18 @@ main {
   background-color: var(--bg);
 }
 
-.announcements {
+.announcements-root {
   grid-area: announcements;
+}
+
+.announcements {
   background-color: var(--bg);
 }
 
-.trending {
+.trending-root {
   grid-area: trending;
+}
+
+.trending {
   background-color: var(--bg);
 }

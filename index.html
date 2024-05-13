@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <title>Admin Dashboard</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <div class="search">
         <label for="search-bar"></label>
-        <input class="search-bar" id="search-bar" name="search_bar" type="text" />
+        <input
+          class="search-bar"
+          id="search-bar"
+          name="search_bar"
+          type="text"
+        />
         <button type="button"></button>
         <div class="profile-image"></div>
         <div>Morgan Oakley</div>
@@ -41,66 +46,105 @@
       </nav>
     </div>
     <main>
-      <div class="projects">
-        <article>
-          <header>Super Cool Project</header>
-          <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
-        </article>
-        <article>
-          <header>Less Cool Project</header>
-          <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tncidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
-        </article>
-        <article>
-          <header>Impossible App</header>
-          <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
-        </article>
-        <article>
-          <header>Easy Peasy App</header>
-          <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
-        </article>
-        <article>
-          <header>Ad Blocker</header>
-          <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
-        </article>
-        <article>
-          <header>Money Maker</header>
-          <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex pelientesque mollis nec sem vel aliquam.</p>
-        </article>
+      <div class="projects-root">
+        <div class="label">Your Projects</div>
+        <div class="projects">
+          <article>
+            <header>Super Cool Project</header>
+            <p>
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </p>
+          </article>
+          <article>
+            <header>Less Cool Project</header>
+            <p>
+              Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
+              sed dolor tncidunt, consectetur sapien et, facilisis dolor. Duis
+              sem purus, dignissim ut sapien in, varius pellentesque lacus.
+            </p>
+          </article>
+          <article>
+            <header>Impossible App</header>
+            <p>
+              In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+              placerat velit sagittis id.
+            </p>
+          </article>
+          <article>
+            <header>Easy Peasy App</header>
+            <p>
+              Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+              urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+              commodo, ac bibendum magna tincidunt.
+            </p>
+          </article>
+          <article>
+            <header>Ad Blocker</header>
+            <p>
+              Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel,
+              pharetra hendrerit felis. Aliquam sed malesuada eros.
+            </p>
+          </article>
+          <article>
+            <header>Money Maker</header>
+            <p>
+              Praesent convallis, libero quis congue elementum, nunc ante
+              faucibus sapien, ac scelerisque tortor purus sit amet ex
+              pelientesque mollis nec sem vel aliquam.
+            </p>
+          </article>
+        </div>
       </div>
-      <div class="announcements">
-        <article>
-          <header>Site Maintenance</header>
-          <p>Vestibulum condimentum telius lacus, in accumsan elit maximus ac. Donec hendreit sodales congue...</p>
-        </article>
-        <article>
-          <header>Community Share Day</header>
-          <p>Nam vel lectus tincidunt, rutrum nulla eu, omare libero. Aliquam dictum accumsan porttitor...</p>
-        </article>
-        <article>
-          <header>Updated Privacy Policy</header>
-          <p>Phasellus efficitur nisi eget elit consecteur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
-        </article>
+      <div class="announcements-root">
+        <div class="label">Announcements</div>
+        <div class="announcements">
+          <article>
+            <header>Site Maintenance</header>
+            <p>
+              Vestibulum condimentum telius lacus, in accumsan elit maximus ac.
+              Donec hendreit sodales congue...
+            </p>
+          </article>
+          <article>
+            <header>Community Share Day</header>
+            <p>
+              Nam vel lectus tincidunt, rutrum nulla eu, omare libero. Aliquam
+              dictum accumsan porttitor...
+            </p>
+          </article>
+          <article>
+            <header>Updated Privacy Policy</header>
+            <p>
+              Phasellus efficitur nisi eget elit consecteur, eget condimentum
+              ante auctor. Cras fringilla sagittis sem in mattis...
+            </p>
+          </article>
+        </div>
       </div>
-      <div class="trending">
-        <div>
-          <div class="profile-image"></div>
-          <div class="profile-at">tegan</div>
-          <div>World Peace Builder</div>
-        </div>
-        <div>
-          <div class="profile-image"></div>
-          <div class="profile-at">morgan</div>
-          <div>Super Cool Project</div>
-        </div>
-        <div>
-          <div class="profile-image"></div>
-          <div class="profile-at">kendall</div>
-          <div>Life Changing App</div>
-        </div>
-        <div>
-          <div class="profile-image"></div>
-          <div class="profile-at">alex</div>
-          <div>No Traffic Maker</div>
+      <div class="trending-root">
+        <div class="label">Trending</div>
+        <div class="trending">
+          <div>
+            <div class="profile-image"></div>
+            <div class="profile-at">tegan</div>
+            <div>World Peace Builder</div>
+          </div>
+          <div>
+            <div class="profile-image"></div>
+            <div class="profile-at">morgan</div>
+            <div>Super Cool Project</div>
+          </div>
+          <div>
+            <div class="profile-image"></div>
+            <div class="profile-at">kendall</div>
+            <div>Life Changing App</div>
+          </div>
+          <div>
+            <div class="profile-image"></div>
+            <div class="profile-at">alex</div>
+            <div>No Traffic Maker</div>
+          </div>
         </div>
       </div>
     </main>
