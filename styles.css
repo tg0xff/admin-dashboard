@@ -26,6 +26,12 @@ body {
     "sidebar main";
 }
 
+.profile-image {
+  background-color: var(--bg);
+  border: 1px solid var(--fg);
+  border-radius: 50%;
+}
+
 header {
   grid-area: header;
 }
