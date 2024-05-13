@@ -50,6 +50,7 @@ header {
   background-color: var(--bg-sidebar);
   font-size: 1.2rem;
   font-weight: 700;
+  padding: 14px;
 }
 
 .sidebar > div {
