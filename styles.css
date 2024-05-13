@@ -27,6 +27,11 @@ header {
   grid-column: 4;
 }
 
+.account-actions {
+  display: grid;
+  grid-template-columns: 1fr 6fr repeat(3, 1fr);
+}
+
 .sidebar {
   grid-area: sidebar;
 }
