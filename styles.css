@@ -2,9 +2,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --fg: #000;
+  --fg-sidebar: #fff;
+  --fg-dim: #777;
+  --bg: #fff;
+  --bg-sidebar: #1992d4;
+  --bg-main: #e2e8f0;
+  --bg-projects: #f0b429;
+}
+
 body {
   font-family: system-ui, sans-serif;
   line-height: 1.3;
+  color: var(--fg);
+  background-color: var(--bg);
 
   display: grid;
   grid-template-columns: 1fr 5fr;
