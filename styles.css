@@ -18,6 +18,15 @@ header {
   grid-area: header;
 }
 
+.search {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr 2fr;
+}
+
+.search button {
+  grid-column: 4;
+}
+
 .sidebar {
   grid-area: sidebar;
 }
