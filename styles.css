@@ -83,6 +83,7 @@ nav ul:last-child {
 
 main {
   grid-area: main;
+  background-color: var(--bg-main);
   display: grid;
   grid-template-columns: 4fr 1fr;
   grid-template-rows: repeat(2, auto);
@@ -98,10 +99,16 @@ main {
   grid-template-rows: repeat(3, auto);
 }
 
+.projects article {
+  background-color: var(--bg);
+}
+
 .announcements {
   grid-area: announcements;
+  background-color: var(--bg);
 }
 
 .trending {
   grid-area: trending;
+  background-color: var(--bg);
 }
