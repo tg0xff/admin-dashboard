@@ -87,11 +87,16 @@ header {
 .account-actions {
   display: grid;
   grid-template-columns: 1fr 6fr repeat(3, 1fr);
+  place-items: center;
 }
 
 .account-actions .profile-image {
   width: 65px;
   height: 65px;
+}
+
+.greeting {
+  justify-self: left;
 }
 
 .sidebar {
