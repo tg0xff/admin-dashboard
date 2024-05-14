@@ -52,9 +52,19 @@ header {
   grid-column: 4;
 }
 
+.search .profile-image {
+  width: 32px;
+  height: 32px;
+}
+
 .account-actions {
   display: grid;
   grid-template-columns: 1fr 6fr repeat(3, 1fr);
+}
+
+.account-actions .profile-image {
+  width: 65px;
+  height: 65px;
 }
 
 .sidebar {
@@ -150,4 +160,9 @@ main {
 
 .trending {
   background-color: var(--bg);
+}
+
+.trending .profile-image {
+  width: 32px;
+  height: 32px;
 }
