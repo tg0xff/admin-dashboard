@@ -88,12 +88,24 @@ header {
   margin: 20px 0;
   display: grid;
   grid-template-columns: 1fr 6fr repeat(3, 1fr);
-  place-items: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .account-actions .profile-image {
   width: 65px;
   height: 65px;
+  justify-self: right;
+}
+
+.account-actions button {
+  color: var(--fg-sidebar);
+  background-color: var(--bg-sidebar);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 22px;
+  border: none;
+  border-radius: 30px;
 }
 
 .greeting {
