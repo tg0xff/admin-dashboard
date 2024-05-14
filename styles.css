@@ -184,6 +184,12 @@ main {
     "projects trending";
 }
 
+main .label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
 .projects-root {
   grid-area: projects;
 }
