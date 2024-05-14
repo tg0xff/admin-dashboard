@@ -183,6 +183,7 @@ main {
   grid-template-areas:
     "projects announcements"
     "projects trending";
+  gap: 20px;
 }
 
 main .label {
