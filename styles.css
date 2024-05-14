@@ -86,6 +86,17 @@ header {
   gap: 14px;
 }
 
+.sidebar ul svg {
+  width: 20px;
+  height: 20px;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 nav ul:first-child {
   grid-template-rows: repeat(6, auto);
   margin-bottom: 40px;
