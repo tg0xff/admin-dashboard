@@ -70,7 +70,7 @@ header {
   margin-bottom: 40px;
   display: flex;
   align-items: center;
-  gap: 10px
+  gap: 10px;
 }
 
 .sidebar > div svg {
