@@ -41,6 +41,8 @@ header {
 .search {
   display: grid;
   grid-template-columns: 1fr 6fr 1fr 1fr 1fr 2fr;
+  align-items: center;
+  gap: 12px;
 }
 
 .search svg {
@@ -48,13 +50,32 @@ header {
   height: 20px;
 }
 
+.search label {
+  justify-self: right;
+}
+
+.search input {
+  appearance: none;
+  outline: none;
+  border: none;
+  border-radius: 75px;
+  background-color: var(--bg-main);
+  font-family: inherit;
+  height: 28px;
+  padding: 3px 10px;
+}
+
 .search button {
   grid-column: 4;
+  justify-self: right;
+  border: none;
+  background-color: var(--bg);
 }
 
 .search .profile-image {
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
+  justify-self: center;
 }
 
 .account-actions {
