@@ -214,8 +214,20 @@ main .label {
 }
 
 .projects article {
+  padding: 20px;
   background-color: var(--bg);
+  border-left: 8px solid var(--bg-projects);
   border-radius: 6px;
+}
+
+.project-text header {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.project-text p {
+  color: var(--fg-dim);
+  font-size: 0.9rem;
 }
 
 .project-buttons {
