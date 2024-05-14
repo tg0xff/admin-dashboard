@@ -85,6 +85,7 @@ header {
 }
 
 .account-actions {
+  margin: 20px 0;
   display: grid;
   grid-template-columns: 1fr 6fr repeat(3, 1fr);
   place-items: center;
