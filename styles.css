@@ -12,8 +12,7 @@
 :root {
   --fg: #000;
   --fg-sidebar: #fff;
-  --fg-icons: #444;
-  --fg-dim: #777;
+  --fg-dim: #444;
   --bg: #fff;
   --bg-sidebar: #1992d4;
   --bg-main: #e2e8f0;
@@ -244,7 +243,7 @@ main .label {
 .project-buttons svg {
   width: 24px;
   height: 24px;
-  fill: var(--fg-icons);
+  fill: var(--fg-dim);
 }
 
 .announcements-root {
