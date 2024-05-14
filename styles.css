@@ -43,6 +43,11 @@ header {
   grid-template-columns: 1fr 6fr 1fr 1fr 1fr 2fr;
 }
 
+.search svg {
+  width: 20px;
+  height: 20px;
+}
+
 .search button {
   grid-column: 4;
 }
