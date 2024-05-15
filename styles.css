@@ -216,6 +216,8 @@ main .label {
   background-color: var(--bg);
   border-left: 8px solid var(--bg-projects);
   border-radius: 6px;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
 }
 
 .project-text header {
@@ -230,6 +232,7 @@ main .label {
 }
 
 .project-buttons {
+  align-self: end;
   display: grid;
   grid-template-columns: 8fr repeat(3, 1fr);
   justify-content: right;
