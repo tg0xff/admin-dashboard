@@ -222,6 +222,10 @@ main .label {
   grid-template-rows: repeat(2, auto);
 }
 
+.project-text {
+  align-self: center;
+}
+
 .project-text header {
   font-size: 1.1rem;
   font-weight: 600;
