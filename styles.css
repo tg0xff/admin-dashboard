@@ -260,9 +260,36 @@ main .label {
 }
 
 .announcements {
-  margin-bottom: 24px;
   grid-area: announcements;
+  margin-bottom: 24px;
   background-color: var(--bg);
+  border-radius: 6px;
+  padding: 26px;
+}
+
+.announcements article {
+  border-bottom: 1px solid #ccc;
+  padding: 16px 6px;
+}
+
+.announcements article:first-child {
+  padding-top: 0;
+}
+
+.announcements article:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.announcements header {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.announcements p {
+  color: var(--fg-dim);
+  font-size: 0.7rem;
+  margin: 0;
 }
 
 .label:has(+ .trending) {
