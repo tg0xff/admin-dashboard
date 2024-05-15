@@ -226,6 +226,7 @@ main .label {
 .project-text p {
   color: var(--fg-dim);
   font-size: 0.9rem;
+  margin: 3px 0;
 }
 
 .project-buttons {
