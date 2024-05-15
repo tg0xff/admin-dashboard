@@ -187,9 +187,11 @@ main {
   background-color: var(--bg-main);
   display: grid;
   grid-template-columns: 4fr 1fr;
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(4, auto);
   grid-template-areas:
+    "projects-label announcements-label"
     "projects announcements"
+    "projects trending-label"
     "projects trending";
   gap: 20px;
 }
@@ -197,14 +199,14 @@ main {
 main .label {
   font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 6px;
 }
 
-.projects-root {
-  grid-area: projects;
+.label:has(+ .projects) {
+  grid-area: projects-label;
 }
 
 .projects {
+  grid-area: projects;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -249,19 +251,21 @@ main .label {
   fill: var(--fg-dim);
 }
 
-.announcements-root {
-  grid-area: announcements;
+.label:has(+ .announcements) {
+  grid-area: announcements-label;
 }
 
 .announcements {
+  grid-area: announcements;
   background-color: var(--bg);
 }
 
-.trending-root {
-  grid-area: trending;
+.label:has(+ .trending) {
+  grid-area: trending-label;
 }
 
 .trending {
+  grid-area: trending;
   background-color: var(--bg);
 }
 
