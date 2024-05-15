@@ -194,6 +194,7 @@ main {
     "projects trending-label"
     "projects trending";
   gap: 12px 20px;
+  box-shadow: inset 1px 2px 8px #bbb;
 }
 
 main .label {
