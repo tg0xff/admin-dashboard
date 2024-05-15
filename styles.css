@@ -256,6 +256,7 @@ main .label {
 }
 
 .announcements {
+  margin-bottom: 24px;
   grid-area: announcements;
   background-color: var(--bg);
 }
