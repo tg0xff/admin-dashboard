@@ -202,6 +202,12 @@ main .label {
   font-weight: 500;
 }
 
+.projects article,
+.announcements,
+.trending {
+  box-shadow: 2px 2px 5px #bbb;
+}
+
 .label:has(+ .projects) {
   grid-area: projects-label;
 }
